@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "version":"1.0.0",
+    "description":""
+    "name":"Tab",
+    "permissions":["tabs","storage"],
+    "icons":{
+        "16":
+    }
+}

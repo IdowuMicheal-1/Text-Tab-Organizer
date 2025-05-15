@@ -1,0 +1,10 @@
+body {
+  width: 300px;
+  padding: 20px;
+  height: 100px;
+  min-height: 100px;
+}
+
+.text-ipt{
+    width: 100;
+}

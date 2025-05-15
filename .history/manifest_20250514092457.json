@@ -1,0 +1,7 @@
+{
+    "manifest_version": 3,
+    "version":"1.0.0",
+    "description":"save tabs easily and apply any note to the link",
+    "name":"Tab",
+    "permissions":["tabs","storage"],
+}

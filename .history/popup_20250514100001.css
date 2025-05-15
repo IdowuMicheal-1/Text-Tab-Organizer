@@ -1,0 +1,26 @@
+body {
+  width: 300px;
+  padding: 20px;
+  height: 100px;
+  min-height: 100px;
+}
+
+.input-div{
+    position: relative;
+}
+
+.search-icon{
+    position: absolute;
+    top: 0;
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    color: ;
+}
+
+.text-ipt{
+    width: 100%;
+    border-radius: 16px;
+    padding: 16px 8px;
+    border: 2px solid rgb(206, 206, 206);
+}

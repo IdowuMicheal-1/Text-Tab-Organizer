@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "version":"1.0.0",
+    "description":"save tabs easily and apply any note to the link",
+    "name":"Tab",
+    "permissions":["tabs","storage"],
+    "action":{
+        "default_popup":"popup.html"
+    },
+    "content_script":[
+        {
+            "matches":["<all_urls>"],
+            "js":["contentscript.js"],
+            "css":["contentscript.css"]
+        }
+    ],
+    "icons":{
+        "16":"images/browser.png"
+        "32":"images/browser.png"
+        "48":"images/browser.png"
+        "16":"images/browser.png"
+    }
+}

@@ -1,0 +1,66 @@
+body {
+  width: 300px;
+  height: 100px;
+  min-height: 100px;
+  background-color: #E9E6FF;
+}
+
+.top-div{
+    width: 100%;
+    padding: 20px;
+}
+
+.input-div {
+  position: relative;
+  width: 100%;
+}
+
+.search-icon {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  width: 16px;
+  height: 16px;
+  color: #cecece;
+  filter: brightness(20%);
+}
+
+.text-ipt {
+  width: 220px;
+  border-radius: 24px;
+  padding: 12px 8px;
+  border: 1px solid #cecece;
+  padding-left: 36px;
+  color: #303030;
+}
+.save{
+    font-size: 14px;
+    font-weight: 500;
+    color: #13294d;
+    margin: 0;
+}
+
+.btn-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tabs-btn{
+   background: linear-gradient(135deg, #13294d, #4f6d92); /* Choose the one you prefer */
+  color: white;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  font-size: 10px;
+  text
+}
+
+
+.tabs-btn {
+  background: linear-gradient(135deg, #1a355c, #5a7a99); /* slightly lighter on hover */
+  transform: translateY(-2px);
+}
